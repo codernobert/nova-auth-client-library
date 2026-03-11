@@ -373,6 +373,3 @@ Tests cover:
 - Invalid token handling (auth-service returns 401)
 - Successful token generation
 - Auth-service unreachable (network error fallback)
-
-#   n o v a - a u t h - c l i e n t - l i b r a r y  
- 

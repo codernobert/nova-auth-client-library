@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "nova.auth-client",
+      "type": "com.nova.auth.client.config.AuthClientProperties",
+      "sourceType": "com.nova.auth.client.config.AuthClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "nova.auth-client.connect-timeout-ms",
+      "type": "java.lang.Integer",
+      "description": "HTTP connection timeout in milliseconds when reaching nova-auth-service.",
+      "sourceType": "com.nova.auth.client.config.AuthClientProperties",
+      "defaultValue": 3000
+    },
+    {
+      "name": "nova.auth-client.read-timeout-ms",
+      "type": "java.lang.Integer",
+      "description": "HTTP read timeout in milliseconds when waiting for nova-auth-service responses.",
+      "sourceType": "com.nova.auth.client.config.AuthClientProperties",
+      "defaultValue": 5000
+    },
+    {
+      "name": "nova.auth-client.url",
+      "type": "java.lang.String",
+      "description": "Base URL of the running nova-auth-service. E.g. http:\/\/localhost:8081 or http:\/\/nova-auth-service:8081",
+      "sourceType": "com.nova.auth.client.config.AuthClientProperties",
+      "defaultValue": "http:\/\/localhost:8081"
+    }
+  ],
+  "hints": []
+}

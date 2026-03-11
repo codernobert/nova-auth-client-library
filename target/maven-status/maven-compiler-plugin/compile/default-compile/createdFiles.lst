@@ -1,0 +1,12 @@
+com\nova\auth\client\config\AuthClientAutoConfiguration.class
+com\nova\auth\client\dto\TokenValidationResponse.class
+com\nova\auth\client\dto\TokenValidationRequest.class
+com\nova\auth\client\config\AuthClientProperties.class
+com\nova\auth\client\dto\TokenValidationResponse$TokenValidationResponseBuilder.class
+META-INF\spring-configuration-metadata.json
+com\nova\auth\client\dto\TokenGenerationRequest.class
+com\nova\auth\client\dto\UserProfileResponse.class
+com\nova\auth\client\dto\UserProfileResponse$UserProfileResponseBuilder.class
+com\nova\auth\client\AuthServiceClient.class
+com\nova\auth\client\dto\TokenGenerationResponse$TokenGenerationResponseBuilder.class
+com\nova\auth\client\dto\TokenGenerationResponse.class
